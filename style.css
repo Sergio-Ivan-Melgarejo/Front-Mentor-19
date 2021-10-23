@@ -149,10 +149,10 @@ input::first-line{
         background-image: url(images/bg-intro-desktop.png);
     }
     .main{
-        max-width: 1200px;
+        max-width: 1440px;
         display: grid;
         grid-template-columns: 1fr 1fr;
-        padding: 75px 9%;
+        padding: 75px 20px;
         gap: clamp(10px, 5vw, 50px);
         align-items: center;
     }
@@ -163,7 +163,10 @@ input::first-line{
         padding: 40px;
     }
     .section__h1{
-        font-size: 3em;
+        font-size: clamp(2.5em, 5vw, 3.5em);
+    }
+    .section__p-1{
+        font-size: clamp(1em, 5vw, 1.3em);
     }
     .main__section-1{
         text-align: left;
